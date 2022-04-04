@@ -1,0 +1,56 @@
+body 
+{
+    text-align: center; 
+}
+table,th,td
+{
+    border:3px solid black;
+    padding: 5px 5px;
+    border-collapse: collapse;  
+}
+#mytable 
+{
+    caption-side: bottom; 
+}
+table
+{
+    width:800px; 
+    margin:auto;
+    padding: 15px 15px;
+}
+th
+{
+    color:hotpink;
+    background-color: purple;
+}
+.colons
+{
+    background-color:aquamarine;
+}
+.theRest
+{
+    background-color:yellow;
+}
+#mytable tr:hover {
+    background-color: rgba(50, 205, 50, 0.6);;
+}
+#mytable td:hover
+{
+    background-color: limegreen;
+    font-family: monospace;
+    font-size: 250%;
+}
+.mytable2 {
+    background-color: coral;
+}
+.bottom
+{
+    vertical-align: bottom;
+    background-color: yellow;
+}
+.bottom:hover
+{
+    vertical-align: top;
+    background-color: limegreen;
+}
+
